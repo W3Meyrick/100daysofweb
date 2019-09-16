@@ -1,0 +1,20 @@
+/* /static/site.css */
+
+body { /* target a known html node by name */
+    background-color: #ccc;
+    color: #222;
+}
+
+.content { /* # .name maps to <p class='name' /> */
+    padding: 20px;
+    line-height: 1.25em;
+}
+
+/* Express hierarchies */
+.nav ul.dropdown > #profile_image {
+    width: 64px;
+}
+
+.content.lead { /* Inheritence and overriding */
+    font-size: 18px;
+}
